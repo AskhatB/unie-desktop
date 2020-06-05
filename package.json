@@ -30,7 +30,7 @@
     "graphql": "^0.12.3",
     "graphql-anywhere": "^4.1.7",
     "graphql-tag": "^2.8.0",
-    "next": "^8.1.0",
+    "next": "^9.3.2",
     "next-apollo": "^2.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
