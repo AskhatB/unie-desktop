@@ -1,0 +1,132 @@
+import styled from 'react-emotion'
+
+export const Wrap = styled.div`
+  width: 70%;
+  margin-top: 30px;
+  display: flex;
+  position: absolute;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  background: #fff;
+  left: 0;
+  top: 33px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+`
+
+export const Left = styled.div`
+  min-width: 263px;
+  background: #fff;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  position: relative;
+`
+export const CatalogWrap = styled.div``
+
+export const CatalogHeader = styled.div`
+  height: 59px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #282f36;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 25px;
+  line-height: 59px;
+  border-bottom: 1px solid #dcddde;
+`
+
+export const CatalogItems = styled.div`
+  padding-top: 15px;
+`
+
+export const CatalogItem = styled.div`
+  color: #52585c;
+  line-height: 30px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background: #dcebf7;
+    cursor: pointer;
+  }
+`
+
+export const Right = styled.div`
+  width: 100%;
+  height: 100%;
+  background: #fff;
+`
+
+export const HiddenWrap = styled.div`
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
+  z-index: 9;
+  padding: 0 0 30px;
+`
+
+export const HiddenItemHeader = styled.a`
+  display: block;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 14px;
+  color: #282f36;
+  cursor: pointer;
+`
+
+export const HiddenItems = styled.div`
+  column-count: 3;
+  padding: 0 25px;
+  box-sizing: border-box;
+`
+
+export const HiddenItemsWrap = styled.div`
+  margin-bottom: 25px;
+  break-inside: avoid;
+`
+
+export const HiddenItem = styled.a`
+  display: block;
+  font-size: 14px;
+  color: #52585c;
+  margin-top: 10px;
+  cursor: pointer;
+  &:hover {
+    color: #2c5c9f;
+  }
+`
+export const HiddenHeader = styled.div`
+  display: flex;
+  align-items: center;
+  height: 59px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  font-family: Roboto Slab;
+  margin-bottom: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 24px;
+  color: #282f36;
+`
+export const HiddenHeaderItem = styled.div`
+  color: #2c5c9f;
+  margin-right: 30px;
+`
+
+export const HiddenFooter = styled.div`
+  border-top: 1px solid #dcddde;
+  height: 59px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+`
+
+export const IconWrap = styled.div`
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`

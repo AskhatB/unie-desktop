@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://finance.2step.me/sitemap.xml

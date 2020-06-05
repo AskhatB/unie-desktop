@@ -1,0 +1,46 @@
+{
+  "name": "uniedesk",
+  "url": "git@gitlab.com:unie.kz/frontend/unie-desktop.git",
+  "version": "1.0.2",
+  "description": "Next + Apollo integration",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Adam Soffer",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "css-loader": "^1.0.0",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.11.1",
+    "style-loader": "^0.23.0",
+    "emotion": "^9.1.0"
+  },
+  "dependencies": {
+    "apollo": "^2.1.2",
+    "apollo-client-preset": "^1.0.8",
+    "axios": "^0.18.0",
+    "babel-plugin-emotion": "^9.1.0",
+    "blob": "0.0.4",
+    "country-list": "^2.1.1",
+    "emotion-server": "^9.1.0",
+    "express": "^4.16.3",
+    "graphql": "^0.12.3",
+    "graphql-anywhere": "^4.1.7",
+    "graphql-tag": "^2.8.0",
+    "next": "^8.1.0",
+    "next-apollo": "^2.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-emotion": "^9.1.0",
+    "react-input-mask": "^2.0.4",
+    "react-number-format": "^4.0.8",
+    "react-slick": "^0.23.2",
+    "react-yandex-maps": "^3.0.2",
+    "webpack": "^4.41.0"
+  }
+}
