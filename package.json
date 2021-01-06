@@ -21,7 +21,7 @@
   "dependencies": {
     "apollo": "^2.1.2",
     "apollo-client-preset": "^1.0.8",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-emotion": "^9.1.0",
     "blob": "0.0.4",
     "country-list": "^2.1.1",
